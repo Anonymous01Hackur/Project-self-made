@@ -1,0 +1,35 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: #D5E1EF;
+    text-align: center;
+    font-family: cursive;
+}
+
+/* main box ho hai */
+.card{
+    height: 470px;
+    width: 302px; /*rem mha used garda better hunxa reh hai*/
+
+    /*The CSS property box-shadow is used to add shadow effects around an element's frame*/
+    box-shadow: 7px 9px 20px 12px rgb(0 0 0 / 10%);
+
+    /* directly sajilo way mha center mah lerauna box lai */
+    background-color: white;
+    position: absolute;
+    margin: auto;
+    inset: 0; 
+
+    /* border rounded garauna */
+    border-radius: 16px; 
+
+    padding: 1rem;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px; 
+    background-color:rgb(55,132,253);
+}
