@@ -1,0 +1,74 @@
+body{
+    background-color: rgb(13, 26, 45);
+}
+
+.box{
+    height: 470px;
+    width: 302px; /*rem mha used garda better hunxa reh hai*/
+
+    /*The CSS property box-shadow is used to add shadow effects around an element's frame*/
+    box-shadow: 7px 9px 20px 12px rgb(0 0 0 / 10%);
+
+    /* directly sajilo way mha center mah lerauna box lai */
+    background-color: rgb(21, 39, 62);
+    position: absolute;
+    margin: auto;
+    inset: 0; 
+
+    /* border rounded garauna */
+    border-radius: 16px; 
+
+    padding: 1rem;
+}
+
+img{
+    width: 100%;
+    border-radius: 8px; 
+}
+h3{
+    color: white;
+}
+.second{
+    color: rgba(240, 248, 255, 0.616);
+    font-size: 13px;
+}
+
+.third{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.number{
+    color: aqua;
+    font-size: 15px;
+}
+.time{
+    color: rgba(240, 248, 255, 0.616);
+    font-size: 15px;
+}
+
+.line{
+    color: rgba(240, 248, 255, 0.863);
+}
+
+.logo{
+    display: flex;
+}
+.avtar{
+    height: 25px;
+    width: 25px;
+    border: 50%;
+    padding: 5px;
+    border-radius: 2px solid white;
+}
+
+p{
+    font-size: 12px;
+    color: gray;
+}
+
+.white{
+    color: white;
+    font-size: 12px;
+}
